@@ -1,0 +1,179 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minion{
+    width: 190px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 90px;
+}
+.ojo1{
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(to right,yellow,blue) ;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    box-shadow: 0px 3px 0px blue;
+    z-index: 100;
+}
+.ojo2{
+    width: 90px;
+    height: 90px;
+    background-image: linear-gradient(to right,yellow,blue) ;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 80px;
+    box-shadow: 0px 3px 0px blue;
+    z-index: 100;
+}
+.eye{
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    margin: 9px;
+    position: absolute;
+}
+.iris{
+    width: 30px;
+    height: 30px;
+    background: maroon;
+    border-radius: 50px;
+    position: absolute;
+    margin: 20px;
+}
+.span{
+    width:  15px;
+    height: 15px;
+    background: black;
+    position: absolute;
+    margin: 7.5px;
+    border-radius: 50%;
+
+}
+.ojo-s{
+    width: 20px;
+    height: 30px;
+    background: black;
+    position: relative;
+    top: -140px;
+    left: 160px;
+}
+.ojo-ss{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, skyblue 60%,yellow 50%);
+    border-radius: 0px 0px 100px 100px;
+    position: relative;
+    top: -70px;
+    overflow: hidden;
+}
+.clou{
+    width: 100%;
+    height: 150px;
+    background: #849ed8;
+    clip-path: polygon(0 54%, 15% 54%, 14% 25%, 79% 24%, 79% 51%, 100% 51%, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 1% 100%, 0% 85%);
+    position: absolute;
+    top:0px;
+}
+.clou1{
+    width: 20px;
+    height: 80px;
+    background: skyblue;
+    position: relative;
+    top: -250px;
+    left: 10px;
+    transform: rotate(-40deg);
+}
+.clou2{
+    width: 20px;
+    height: 80px;
+    background: skyblue;
+    position: relative;
+    top: -330px;
+    left: 160px;
+    transform: rotate(40deg);
+}
+.pocket{
+    width: 80px;
+    height: 60px;
+    background: skyblue;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    border-radius:  0px 0px 100px 100px;
+}
+.button{
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    bottom: 5px;
+}
+.mouth{
+    width: 100px;
+    height: 40px;
+    background: black;
+    position: relative;
+    top: -410px;
+    left: 40px;
+    border-radius: 0px 0px 100px 100px;
+    overflow: hidden;
+}
+.diente1{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: -10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.diente2{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: -10px;
+    border-radius: 0px 0px 10px 10px;
+    left: 20px;
+}
+.diente3{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: -10px;
+    border-radius: 0px 0px 10px 10px;
+    left: 40px;
+}
+.diente4{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: -10px;
+    border-radius: 0px 0px 10px 10px;
+    left: 60px;
+}
+.diente5{
+    width: 20px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: -10px;
+    border-radius: 0px 0px 10px 10px;
+    left: 80px;
+}
+.mano{
+    width: 10px;
+    height: 20px;
+}
